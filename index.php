@@ -11,5 +11,5 @@ $query = " SELECT
                         )
            ";
 
-$organization = DB::select(DB::raw($query) );
+$organization = DB::select(DB::raw($query) ); 
 ?>
